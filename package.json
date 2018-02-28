@@ -1,0 +1,17 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "Documentation for rispa project",
+  "repository": "https://github.com/rispa-io/docs.git",
+  "author": "Andrew Laiff <q.laiff@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf _book",
+    "start": "gitbook install && gitbook serve",
+    "build": "gitbook install && gitbook build -g rispa-io/docs",
+    "publish": "npm run build && cd _book && git init && git commit --allow-empty -m \"update book\" && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am \"update book\" && git push https://github.com/rispa-io/docs.git gh-pages --force"
+  },
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}

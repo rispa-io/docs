@@ -1,0 +1,25 @@
+{
+  "title": "Rispa Documentation",
+  "gitbook": ">=3.2.1",
+  "plugins": [
+    "edit-link",
+    "prism",
+    "-highlight",
+    "github",
+    "anchorjs"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/rispa-io/docs/blob/master/docs",
+      "label": "Edit This Page"
+    },
+    "github": {
+      "url": "https://github.com/rispa-io/docs"
+    },
+    "theme-default": {
+      "styles": {
+        "website": "build/gitbook.css"
+      }
+    }
+  }
+}
