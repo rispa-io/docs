@@ -1,0 +1,711 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Project structure · Rispa Documentation</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="plugin-spec.html" />
+    
+    
+    <link rel="prev" href="migration-3.x.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="overview.html">
+            
+                <a href="overview.html">
+            
+                    
+                    Project Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="migration-3.x.html">
+            
+                <a href="migration-3.x.html">
+            
+                    
+                    Migration from 3.х
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="project-structure.html">
+            
+                <a href="project-structure.html">
+            
+                    
+                    Project structure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="plugin-spec.html">
+            
+                <a href="plugin-spec.html">
+            
+                    
+                    Plugin specification
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="plugin-create.html">
+            
+                <a href="plugin-create.html">
+            
+                    
+                    Plugin develop
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="plugins/readme.html">
+            
+                <a href="plugins/readme.html">
+            
+                    
+                    Plugins
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="plugins/rispa-client.html">
+            
+                <a href="plugins/rispa-client.html">
+            
+                    
+                    rispa-client
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="plugins/rispa-redux.html">
+            
+                <a href="plugins/rispa-redux.html">
+            
+                    
+                    rispa-redux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="plugins/rispa-babel.html">
+            
+                <a href="plugins/rispa-babel.html">
+            
+                    
+                    rispa-babel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="plugins/rispa-webpack.html">
+            
+                <a href="plugins/rispa-webpack.html">
+            
+                    
+                    rispa-webpack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="plugins/rispa-server.html">
+            
+                <a href="plugins/rispa-server.html">
+            
+                    
+                    rispa-server
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="plugins/rispa-ui-kit.html">
+            
+                <a href="plugins/rispa-ui-kit.html">
+            
+                    
+                    rispa-ui-kit
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.7" data-path="plugins/rispa-config.html">
+            
+                <a href="plugins/rispa-config.html">
+            
+                    
+                    rispa-config
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8" data-path="plugins/rispa-eslint-config.html">
+            
+                <a href="plugins/rispa-eslint-config.html">
+            
+                    
+                    rispa-eslint-config
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.9" data-path="plugins/rispa-tslint-config.html">
+            
+                <a href="plugins/rispa-tslint-config.html">
+            
+                    
+                    rispa-tslint-config
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.10" data-path="plugins/rispa-render-server.html">
+            
+                <a href="plugins/rispa-render-server.html">
+            
+                    
+                    rispa-render-server
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.11" data-path="plugins/rispa-render-simple.html">
+            
+                <a href="plugins/rispa-render-simple.html">
+            
+                    
+                    rispa-render-simple
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.12" data-path="plugins/rispa-render-static.html">
+            
+                <a href="plugins/rispa-render-static.html">
+            
+                    
+                    rispa-render-static
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Project structure</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="project-structure">Project structure</h1>
+<h2 id="technologies">Technologies</h2>
+<p>Generated app uses the following technologies:</p>
+<ul>
+<li>React</li>
+<li>Redux</li>
+<li><a href="https://reacttraining.com/react-router/" target="_blank">React Router v4</a></li>
+<li>Server side rendering with <a href="https://github.com/halt-hammerzeit/universal-webpack" target="_blank">universal-webpack</a></li>
+<li>Code Splitting with <a href="https://github.com/thejameskyle/react-loadable" target="_blank">react-loadable</a> and <a href="https://github.com/faceyspacey/webpack-flush-chunks" target="_blank">webpack-flushchunks</a></li>
+<li>CSS Modules and Sugarss</li>
+<li>Express</li>
+<li>Webpack for bundling</li>
+<li>Webpack Dev Middleware</li>
+<li>Webpack Hot Middleware</li>
+<li>Babel</li>
+<li>ESlint</li>
+<li>Jest for testing</li>
+<li>Storybook with storyshots</li>
+</ul>
+<h2 id="app-structure">App structure</h2>
+<p>App based on monorepo structure. It consists of plugins of two types: system plugins (rispa plugins) and project plugins (features). It has following structure:</p>
+<pre class="language-"><code>.
+&#x251C;&#x2500;&#x2500; build
+&#x251C;&#x2500;&#x2500; packages
+&#x2502;   &#x251C;&#x2500;&#x2500; rispa-config
+&#x2502;   &#x251C;&#x2500;&#x2500; rispa-routes
+&#x2502;   &#x251C;&#x2500;&#x2500; rispa-ui-kit
+&#x2502;   &#x2026;
+&#x2502;   &#x251C;&#x2500;&#x2500; feature-plugin
+&#x2502;   &#x2502;   &#x2514;&#x2500;&#x2500; src
+&#x2502;   &#x2502;   &#x2502;   &#x251C;&#x2500;&#x2500; components
+&#x2502;   &#x2502;   &#x2502;   &#x2502;   &#x2514;&#x2500;&#x2500; Component
+&#x2502;   &#x2502;   &#x2502;   &#x2502;   &#x2502;   &#x251C;&#x2500;&#x2500; index.js
+&#x2502;   &#x2502;   &#x2502;   &#x2502;   &#x2502;   &#x251C;&#x2500;&#x2500; Component.js
+&#x2502;   &#x2502;   &#x2502;   &#x2502;   &#x2502;   &#x251C;&#x2500;&#x2500; Component.sss
+&#x2502;   &#x2502;   &#x2502;   &#x2502;   &#x2502;   &#x251C;&#x2500;&#x2500; Component.test.js
+&#x2502;   &#x2502;   &#x2502;   &#x251C;&#x2500;&#x2500; containers
+&#x2502;   &#x2502;   &#x2502;   &#x2502;   &#x2514;&#x2500;&#x2500; Container
+&#x2502;   &#x2502;   &#x2502;   &#x2502;   &#x2502;   &#x251C;&#x2500;&#x2500; index.js
+&#x2502;   &#x2502;   &#x2502;   &#x2502;   &#x2502;   &#x251C;&#x2500;&#x2500; Container.js
+&#x2502;   &#x2502;   &#x2502;   &#x2502;   &#x2502;   &#x251C;&#x2500;&#x2500; Container.test.js
+&#x2502;   &#x2502;   &#x2502;   &#x251C;&#x2500;&#x2500; redux
+&#x2502;   &#x2502;   &#x2502;   &#x2502;   &#x2514;&#x2500;&#x2500; reducer.js
+&#x2502;   &#x2502;   &#x2502;   &#x251C;&#x2500;&#x2500; index.js
+&#x2502;   &#x2502;   &#x2502;   &#x251C;&#x2500;&#x2500; register.js
+&#x2502;   &#x2502;   &#x2514;&#x2500;&#x2500; package.json
+&#x2502;   ...
+&#x251C;&#x2500;&#x2500; rispa.json
+&#x2514;&#x2500;&#x2500; package.json
+</code></pre><h4 id="list-of-used-rispa-plugins">List of used rispa plugins:</h4>
+<table>
+<thead>
+<tr>
+<th>Plugin name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>rispa&#x2011;core</td>
+<td>Provides functionality of communicating plugins with each others</td>
+</tr>
+<tr>
+<td>rispa&#x2011;config</td>
+<td>Contains configuration settings (host and port for server, outputPath and publicPath for build)</td>
+</tr>
+<tr>
+<td>rispa&#x2011;server</td>
+<td>Runs express server and rendering through extension point</td>
+</tr>
+<tr>
+<td>rispa&#x2011;render&#x2011;server</td>
+<td>Implement server-side rendering using universal-webpack</td>
+</tr>
+<tr>
+<td>rispa&#x2011;client</td>
+<td>Entry point for client app. <ul><li>configures store</li><li>creates tree with root components: AppContainer (hot reloading), Provider (redux), CookieProvider, ConnectedRouter (rr4)</li><li>inject routes get from rispa-routes plugin to the component tree</li><li>register React Hot Loader</li></ul></td>
+</tr>
+<tr>
+<td>rispa&#x2011;routes</td>
+<td>This plugin is a extension point for whole app. It gathers async routes from other plugins and register then in a global Switch, which rispa-client plugin injects into components tree</td>
+</tr>
+<tr>
+<td>rispa&#x2011;redux</td>
+<td>Contains functions for configuring store and helpers for creating reducers (hor) and data loading (when)</td>
+</tr>
+<tr>
+<td>rispa&#x2011;ui&#x2011;kit</td>
+<td>App ui kit</td>
+</tr>
+<tr>
+<td>rispa&#x2011;vendor</td>
+<td>Contains bunch of vendor libs used by other plugins</td>
+</tr>
+<tr>
+<td>rispa&#x2011;webpack</td>
+<td>Makes build for dev server and production</td>
+</tr>
+</tbody>
+</table>
+<h2 id="running-the-app">Running the App</h2>
+<p>To start work you should install rispa-cli globally. It provides command to run and maintain app:</p>
+<pre class="language-"><code class="lang-bash">yarn global add @rispa/cli
+</code></pre>
+<p>or</p>
+<pre class="language-"><code class="lang-bash"><span class="token function">npm</span> <span class="token function">install</span> -g @rispa/cli
+</code></pre>
+<p>We use yarn as a package manager by default. To switch to npm you may change it in the lerna configuration (lerna.json)</p>
+<p>Each plugin has its own commands which you can run in project root using following syntax:</p>
+<pre class="language-"><code class="lang-bash">ris <span class="token punctuation">[</span>pluginName<span class="token punctuation">]</span> <span class="token punctuation">[</span>commandName<span class="token punctuation">]</span>
+</code></pre>
+<p><code>pluginName</code> - a plugin name (<code>name</code> property in the <code>package.json</code>) or it&#x2019;s alias (<code>rispa:name</code> property in the <code>package.json</code>)
+<code>commandName</code> - one of the scripts of <code>package.json</code> of the plugin</p>
+<p><code>pluginName</code> and <code>commandName</code> are optional. If you omit them command will allow to pick plugin or command from the list</p>
+<p>Full list of command for each plugin you can see on <a href="https://github.com/rispa-io" target="_blank">github</a>. Main commands are in the table below:</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ris server start-dev</code></td>
+<td>Builds and runs app dev server</td>
+</tr>
+<tr>
+<td><code>ris server start-prod</code></td>
+<td>Runs app server for production</td>
+</tr>
+<tr>
+<td><code>ris server start-dev-client</code></td>
+<td>Builds and runs app dev server with SSR disabled</td>
+</tr>
+<tr>
+<td><code>ris server start-prod-client</code></td>
+<td>Runs app server for production with SSR disabled</td>
+</tr>
+<tr>
+<td><code>ris server start-profile</code></td>
+<td>Builds and runs app dev server with profiling components cache</td>
+</tr>
+<tr>
+<td><code>ris webpack build</code></td>
+<td>Builds app for production</td>
+</tr>
+<tr>
+<td><code>ris ui sb</code></td>
+<td>Runs storybook</td>
+</tr>
+<tr>
+<td><code>ris ui build-storybook</code></td>
+<td>Builds and runs storybook for production</td>
+</tr>
+<tr>
+<td><code>ris all test</code>, <code>ris all test:coverage</code></td>
+<td>Runs tests for all plugins</td>
+</tr>
+<tr>
+<td><code>ris all lint</code>, <code>ris all lint:fix</code></td>
+<td>Runs eslint for all plugins</td>
+</tr>
+<tr>
+<td><code>ris all stylelint</code></td>
+<td>Runs stylelint for all plugins</td>
+</tr>
+<tr>
+<td><code>ris core g</code></td>
+<td>Runs modules generator</td>
+</tr>
+</tbody>
+</table>
+<p>Note: To run app for production you should run commands <code>ris webpack build</code> and <code>ris server start-prod</code> one by one</p>
+<h2 id="developing">Developing</h2>
+<p>It is assumed that the functionality of the application is divided into several features. Each feature is a part of the application that has its own route. For example, Home Page or About Page are individual features that have their own route.
+To add a new feature, you should create a plugin. To do this, you can use the generator by following command:</p>
+<pre class="language-"><code>ris core g
+</code></pre><p>Then pick <code>feature-plugin</code> in the list and specify the name and the route path. The plugin will be added to the <code>packages</code> folder and will have the following structure:</p>
+<pre class="language-"><code>.
+&#x251C;&#x2500;&#x2500; feature-plugin
+&#x2502;   &#x2514;&#x2500;&#x2500; src
+&#x2502;   &#x2502;   &#x251C;&#x2500;&#x2500; index.js
+&#x2502;   &#x2502;   &#x251C;&#x2500;&#x2500; register.js
+&#x2502;   &#x251C;&#x2500;&#x2500; package.json
+</code></pre><p><code>index.js</code> specified as a <code>main</code> property in the <code>package.json</code> of the plugin. It exports the function which should return the config for router (object which contains <code>path</code> and <code>component</code> properties).</p>
+<pre class="language-"><code class="lang-javascript"><span class="token keyword">import</span> Loadable <span class="token keyword">from</span> <span class="token string">&apos;@rispa/vendor/loadable&apos;</span>
+
+<span class="token keyword">const</span> loadable <span class="token operator">=</span> <span class="token punctuation">(</span>store<span class="token punctuation">,</span> when<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">Loadable</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  LoadingComponent<span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+  loader<span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token keyword">import</span><span class="token punctuation">(</span><span class="token string">&apos;./register&apos;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  resolveModule<span class="token punctuation">:</span> module <span class="token operator">=</span><span class="token operator">&gt;</span> module<span class="token punctuation">.</span><span class="token keyword">default</span><span class="token punctuation">(</span>store<span class="token punctuation">,</span> when<span class="token punctuation">)</span><span class="token punctuation">,</span>
+  webpackRequireWeakId<span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> require<span class="token punctuation">.</span><span class="token function">resolveWeak</span><span class="token punctuation">(</span><span class="token string">&apos;./register&apos;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> createRoute <span class="token operator">=</span> <span class="token punctuation">(</span>store<span class="token punctuation">,</span> when<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+  path<span class="token punctuation">:</span> <span class="token string">&apos;/path&apos;</span><span class="token punctuation">,</span>
+  component<span class="token punctuation">:</span> <span class="token function">loadable</span><span class="token punctuation">(</span>store<span class="token punctuation">,</span> when<span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> createRoute
+</code></pre>
+<p>We use Loadable for code splitting and async loading chunks.</p>
+<p><code>register.js</code> exports the function which accepts <code>store</code> and <code>when</code> parameters for injecting reducers or registering data loading for plugin. Function should return the component which will be displayed for specified route:</p>
+<pre class="language-"><code class="lang-javascript"><span class="token keyword">import</span> Component <span class="token keyword">from</span> <span class="token string">&apos;./components/Component/&apos;</span>
+<span class="token keyword">import</span> reducer<span class="token punctuation">,</span> <span class="token punctuation">{</span> action <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;./redux/reducer&apos;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> when<span class="token punctuation">,</span> match <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;@rispa/redux/when&apos;</span>
+
+<span class="token keyword">const</span> registerReducer <span class="token operator">=</span> <span class="token punctuation">(</span>store<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+  store<span class="token punctuation">.</span><span class="token function">injectReducer</span><span class="token punctuation">(</span><span class="token string">&apos;reducerName&apos;</span><span class="token punctuation">,</span> reducer<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> registerWhen <span class="token operator">=</span> <span class="token punctuation">(</span>when<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+  <span class="token function">when</span><span class="token punctuation">(</span><span class="token function">match</span><span class="token punctuation">(</span><span class="token string">&apos;/path&apos;</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">action</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token boolean">true</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> registerModule <span class="token operator">=</span> <span class="token punctuation">(</span>store<span class="token punctuation">,</span> when<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+  <span class="token function">registerReducer</span><span class="token punctuation">(</span>store<span class="token punctuation">)</span>
+  <span class="token function">registerWhen</span><span class="token punctuation">(</span>when<span class="token punctuation">)</span>
+
+  <span class="token keyword">return</span> Component
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> registerModule
+</code></pre>
+<p>After you create a plugin it&apos;s automatically added as a dependency to <code>rispa-routes</code> plugin and registered as a Route in global Switch</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="migration-3.x.html" class="navigation navigation-prev " aria-label="Previous page: Migration from 3.х">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="plugin-spec.html" class="navigation navigation-next " aria-label="Next page: Plugin specification">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Project structure","level":"1.4","depth":1,"next":{"title":"Plugin specification","level":"1.5","depth":1,"path":"plugin-spec.md","ref":"plugin-spec.md","articles":[]},"previous":{"title":"Migration from 3.х","level":"1.3","depth":1,"path":"migration-3.x.md","ref":"migration-3.x.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","prism","-highlight","github","anchorjs"],"styles":{"website":"build/gitbook.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{},"github":{"url":"https://github.com/rispa-io/docs"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Edit This Page","base":"https://github.com/rispa-io/docs/blob/master/docs"},"theme-default":{"styles":{"website":"build/gitbook.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchorjs":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Rispa Documentation","language":"en","gitbook":"*"},"file":{"path":"project-structure.md","mtime":"2018-02-27T11:16:48.598Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-02-28T09:20:06.381Z"},"basePath":".","book":{"language":"en"}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-anchorjs/anchor-style.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
