@@ -1,3 +1,3 @@
 # Rispa docs
 
-## [summary](/en/summary.md)
+## [summary](/en/SUMMARY.md)
